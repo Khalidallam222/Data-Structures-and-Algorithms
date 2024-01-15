@@ -1,0 +1,23 @@
+# Ensure you are on your local branch
+git checkout your-local-branch
+
+# Commit changes
+git add .
+git commit -m "Your commit message"
+
+# Fetch and pull changes from remote master
+git fetch origin master
+git pull origin master
+
+# Switch to master branch
+git checkout master
+# or, in Git 2.23 and later
+# git switch master
+
+# Merge your local branch into master
+git merge your-local-branch
+
+# Resolve conflicts if any
+
+# Push changes to remote master
+git push origin master
